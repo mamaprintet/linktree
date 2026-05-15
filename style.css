@@ -800,3 +800,52 @@ body {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
+
+/*-----------------------amazon section-----------------------*/
+#amazon-section {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#amazon-heading {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+    opacity: 0.85;
+    letter-spacing: 0.03em;
+}
+
+#amazon-links {
+    display: block;
+}
+
+.amazon-link {
+    border-color: rgba(255, 153, 0, 0.6);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+}
+
+@media (hover: hover) {
+    .amazon-link:hover {
+        background-color: rgba(255, 153, 0, 0.8);
+        border-color: rgba(255, 153, 0, 0.8);
+        color: #fff;
+    }
+}
+
+.amazon-link:active {
+    background-color: rgba(255, 153, 0, 0.8);
+    color: #fff;
+}
+
+#affiliate-disclosure {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 10px;
+}
