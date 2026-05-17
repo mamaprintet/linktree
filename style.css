@@ -801,6 +801,47 @@ body {
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
+/*-----------------------box section-----------------------*/
+#box-section {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#box-heading {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+    opacity: 0.85;
+    letter-spacing: 0.03em;
+}
+
+#box-links {
+    display: block;
+}
+
+.makerworld-link {
+    border-color: rgba(0, 190, 140, 0.6);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+}
+
+@media (hover: hover) {
+    .makerworld-link:hover {
+        background-color: rgba(0, 190, 140, 0.8);
+        border-color: rgba(0, 190, 140, 0.8);
+        color: #fff;
+    }
+}
+
+.makerworld-link:active {
+    background-color: rgba(0, 190, 140, 0.8);
+    color: #fff;
+}
+
 /*-----------------------amazon section-----------------------*/
 #amazon-section {
     max-width: 675px;
