@@ -842,6 +842,49 @@ body {
     color: #fff;
 }
 
+/*-----------------------filament section-----------------------*/
+#filament-section {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 0 auto 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-heading {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+    opacity: 0.85;
+    letter-spacing: 0.03em;
+}
+
+.section-links {
+    display: block;
+}
+
+.external-link {
+    border-color: rgba(120, 160, 255, 0.6);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+}
+
+@media (hover: hover) {
+    .external-link:hover {
+        background-color: rgba(120, 160, 255, 0.8);
+        border-color: rgba(120, 160, 255, 0.8);
+        color: #fff;
+    }
+}
+
+.external-link:active {
+    background-color: rgba(120, 160, 255, 0.8);
+    color: #fff;
+}
+
 /*-----------------------amazon section-----------------------*/
 #amazon-section {
     max-width: 675px;
