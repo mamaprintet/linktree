@@ -801,6 +801,16 @@ body {
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
+/*-----------------------marswork section-----------------------*/
+#marswork-section {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 0 auto 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /*-----------------------box section-----------------------*/
 #box-section {
     max-width: 675px;
